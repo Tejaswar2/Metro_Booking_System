@@ -1,0 +1,85 @@
+📝 Student Programming Task: Hyderabad Metro Booking System (Console-Based Java Application)
+💡 Objective:
+To build a simple console-based metro ticket booking system for Hyderabad Metro using Java. This application will allow users to register, login, recharge their card, and book multiple tickets in one session. The fare is calculated based on the distance between selected stations.
+
+📌 Functional Requirements:
+User Registration and Login
+
+Allow a user to register with a username and password.
+
+After registration, the user must login using valid credentials.
+
+All variables must be declared within the main() method (i.e., no global/static variables).
+
+Metro Menu After Login
+Once the user logs in successfully, display a menu with the following options:
+
+Recharge Metro Card
+
+Book Tickets
+
+View Balance
+
+View Last Ticket Details
+
+Logout
+
+Recharge Metro Card
+
+Allow the user to enter an amount and add it to their account balance.
+
+Book Metro Tickets
+
+Allow the user to select from one of the 3 metro lines:
+
+Red Line: L.B. Nagar – Miyapur
+
+Blue Line: Nagole – Raidurg
+
+Green Line: JBS – MGBS
+
+Display station names as options for source and destination.
+
+Ask how many tickets the user wants to book in this session.
+
+For each ticket:
+
+Take source and destination input.
+
+Calculate fare based on distance:
+
+shell
+Copy
+Edit
+1 station = ₹10
+2 stations = ₹15
+3 stations = ₹20
+4 stations = ₹25
+5 stations = ₹30
+>5 stations = ₹35
+Check if the account balance is sufficient.
+
+Deduct fare and confirm ticket.
+
+After completing the ticket booking loop, prompt:
+
+nginx
+Copy
+Edit
+Do you want to book more tickets? (yes/no)
+If yes, allow another booking round. If no, return to the main menu.
+
+View Balance
+
+Show the current wallet balance.
+
+Show total number of tickets booked.
+
+View Last Ticket Details
+
+Show the most recent ticket booked (From → To, distance, fare).
+
+Logout
+
+Log out from the system and return to the main screen.
+
